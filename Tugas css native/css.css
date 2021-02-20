@@ -1,0 +1,506 @@
+/* Nav */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpaperaccess.com/full/1761717.jpg);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+    transition: 0.6s;
+    
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+ul li.home .tombol1 {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+/* header */
+.utama {
+    margin: auto;
+    
+}
+
+.judul {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.judul h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.tombol1 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.tombol1:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+/* card */
+.card {
+    background-color: white;
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    border-radius: 10px;
+    top: 38%;
+    left: 5%;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+.container {
+    padding: 5px 12px;
+}
+
+.card1 {
+    background-color: white;
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    border-radius: 10px;
+    top: 38%;
+    left: 28%;
+}
+
+.card1:hover {
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.container1 {
+    padding: 5px 12px;
+}
+
+.card2 {
+    background-color: white;
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    border-radius: 10px;
+    top: 38%;
+    left: 52%;
+}
+
+.card2:hover {
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.container2 {
+    padding: 5px 12px;
+}
+
+.card3 {
+    background-color: white;
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    border-radius: 10px;
+    top: 38%;
+    left: 76%;
+}
+
+.card3:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+.container3 {
+    padding: 5px 12px;
+}
+
+.img{
+    border-radius: 10px 10px 0px 0px;
+    height: 210px;
+    width: 620px;
+    object-fit: cover;
+}
+
+.artikel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/originals/6c/de/25/6cde2511fb3c504e28fba399db6d897a.jpg);
+    background-position: center;
+    color: white;
+    background-size: cover;
+    width: 42%;
+    height: 14%;
+    position: absolute;
+    border-radius: 6px;
+    transition: 0.3s;
+    left: 5%;
+    top: 75%;
+}
+
+.artikel:hover {
+    background-image: url(https://i.pinimg.com/originals/6c/de/25/6cde2511fb3c504e28fba399db6d897a.jpg);
+    color: white;
+}
+
+.food{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.artikel1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/736x/8f/82/14/8f8214b276862a016f90f37681a99bb3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 42%;
+    height: 14%;
+    position: absolute;
+    border-radius: 6px;
+    transition: 0.6s;
+    left: 5%;
+    top: 94%;
+}
+
+.artikel1:hover {
+    background-image: url(https://i.pinimg.com/736x/8f/82/14/8f8214b276862a016f90f37681a99bb3.jpg);
+    color: white;
+}
+
+
+.artikel2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/originals/7e/67/27/7e672774727b98ea5c274d07fbf46521.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 42%;
+    height: 14%;
+    position: absolute;
+    border-radius: 6px;
+    left: 52%;
+    top: 75%;
+}
+.artikel2:hover {
+    background-image: url(https://i.pinimg.com/originals/7e/67/27/7e672774727b98ea5c274d07fbf46521.jpg);
+    color: white;
+}
+
+.artikel3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://resources.matcha-jp.com/resize/720x2000/2020/07/27-105340.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 42%;
+    height: 14%;
+    position: absolute;
+    border-radius: 6px;
+    left: 52%;
+    top: 94%;
+}
+
+.artikel3:hover {
+    background-image: url(https://resources.matcha-jp.com/resize/720x2000/2020/07/27-105340.jpeg);
+    color: white;
+}
+
+/* Produk */
+main {
+    background-color: #172240;
+    height: 835px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.mainimg{
+    height: 270px;
+    width: 650px;
+    object-fit: contain;
+    position: absolute;
+    top: 120%;
+    right: 63%;
+}
+
+.kotak{
+    color: white;
+    position: absolute;
+    top: 125%;
+    left: 9%;
+    text-align: justify;
+}
+
+.gambarpeta{
+    height: 410px;
+    width: 650px;
+    object-fit: contain;
+    position: absolute;
+    top: 115%;
+    left: 57%;
+}
+
+.paket{
+    color: white;
+    position: absolute;
+    top: 170%;
+    left: 42%;
+}
+
+.tour {
+    transition: 0.3s;
+    width: 30%;
+    position: absolute;
+    border-radius: 10px;
+    top: 182%;
+    left: 2%;
+}
+
+
+.img2{
+    height: 210px;
+    width: 950px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.tombol2 {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.tombol2:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.harga{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    top: 76%;
+    left: 10px;
+}
+
+.paket1{
+    color: white;
+    position: absolute;
+    top: 170%;
+    left: 42%;
+}
+
+.tour1{
+    transition: 0.3s;
+    width: 30%;
+    position: absolute;
+    border-radius: 10px;
+    top: 182%;
+    left: 35%;
+}
+
+.btn1 {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.harga1{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    top: 76%;
+    left: 10px;
+}
+
+.paket2{
+    color: white;
+    position: absolute;
+    top: 170%;
+    left: 42%;
+}
+
+.tour2{
+    transition: 0.3s;
+    width: 30%;
+    position: absolute;
+    border-radius: 10px;
+    top: 182%;
+    left: 68%;
+}
+
+.btn2{
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.harga2{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    top: 76%;
+    left: 10px;
+}
+
+/* footer */
+footer{
+    background-color: #010101;
+    height: 115px;
+    background-position: center;
+    background-size: cover;
+}
+
+.us{
+    color: white;
+    position: absolute;
+    left: 14px;
+    top: 1745px;
+    opacity: 55%;
+}
+
+.us1{
+    color: white;
+    position: absolute;
+    left: 15px;
+    top: 1773px;
+    opacity: 40%;
+}
+
+.cate{
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 1745px;
+    opacity: 55%;
+}
+
+.cate1{
+    color: white;
+    position: absolute;
+    left: 501px;
+    top: 1773px;
+    opacity: 40%;
+}
+
+.in{
+    color: white;
+    position: absolute;
+    left: 660px;
+    top: 1745px;
+    opacity: 55%;
+}
+
+.in1{
+    color: white;
+    position: absolute;
+    left: 661px;
+    top: 1773px;
+    opacity: 40%;
+}
+
+small{
+    color: white;
+    position: absolute;
+    left: 1220px;
+    top: 1828px;
+    opacity: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
